@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1C499CE61B50EB50001C3D25 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C499CE51B50EB50001C3D25 /* main.swift */; };
+		1C499CEF1B51237B001C3D25 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C499CEE1B51237B001C3D25 /* Duck.swift */; };
+		1C499CF31B5125A9001C3D25 /* FlyBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C499CF21B5125A9001C3D25 /* FlyBehavior.swift */; };
+		1C499CF71B5126C9001C3D25 /* QuackBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C499CF61B5126C9001C3D25 /* QuackBehavior.swift */; };
+		1C499CF91B512874001C3D25 /* FlyWithWing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C499CF81B512874001C3D25 /* FlyWithWing.swift */; };
+		1C499CFD1B512976001C3D25 /* FlyNoWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C499CFC1B512976001C3D25 /* FlyNoWay.swift */; };
+		1C499CFF1B512A04001C3D25 /* Quack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C499CFE1B512A04001C3D25 /* Quack.swift */; };
+		1C499D011B512A50001C3D25 /* MuteQuack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C499D001B512A50001C3D25 /* MuteQuack.swift */; };
+		1C499D031B512A85001C3D25 /* Squeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C499D021B512A85001C3D25 /* Squeak.swift */; };
+		1C499D061B512D52001C3D25 /* MallardDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C499D051B512D52001C3D25 /* MallardDuck.swift */; };
+		1C499D081B5132B4001C3D25 /* ModelDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C499D071B5132B4001C3D25 /* ModelDuck.swift */; };
+		1C64C6B91B5133BC005F29A6 /* FlyRocketPowered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64C6B81B5133BC005F29A6 /* FlyRocketPowered.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +36,17 @@
 /* Begin PBXFileReference section */
 		1C499CE21B50EB50001C3D25 /* SimUDuck */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimUDuck; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C499CE51B50EB50001C3D25 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1C499CEE1B51237B001C3D25 /* Duck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		1C499CF21B5125A9001C3D25 /* FlyBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyBehavior.swift; sourceTree = "<group>"; };
+		1C499CF61B5126C9001C3D25 /* QuackBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuackBehavior.swift; path = SimUDuck.xcodeproj/../QuackBehavior.swift; sourceTree = SOURCE_ROOT; };
+		1C499CF81B512874001C3D25 /* FlyWithWing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyWithWing.swift; sourceTree = "<group>"; };
+		1C499CFC1B512976001C3D25 /* FlyNoWay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyNoWay.swift; sourceTree = "<group>"; };
+		1C499CFE1B512A04001C3D25 /* Quack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quack.swift; sourceTree = "<group>"; };
+		1C499D001B512A50001C3D25 /* MuteQuack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuteQuack.swift; sourceTree = "<group>"; };
+		1C499D021B512A85001C3D25 /* Squeak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Squeak.swift; sourceTree = "<group>"; };
+		1C499D051B512D52001C3D25 /* MallardDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MallardDuck.swift; sourceTree = "<group>"; };
+		1C499D071B5132B4001C3D25 /* ModelDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDuck.swift; sourceTree = "<group>"; };
+		1C64C6B81B5133BC005F29A6 /* FlyRocketPowered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyRocketPowered.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +80,43 @@
 			isa = PBXGroup;
 			children = (
 				1C499CE51B50EB50001C3D25 /* main.swift */,
+				1C499CFB1B512954001C3D25 /* QuackBehavior */,
+				1C499CFA1B51293C001C3D25 /* FlyBehavior */,
+				1C499D041B512B06001C3D25 /* Duck */,
 			);
 			path = SimUDuck;
+			sourceTree = "<group>";
+		};
+		1C499CFA1B51293C001C3D25 /* FlyBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				1C499CF21B5125A9001C3D25 /* FlyBehavior.swift */,
+				1C499CF81B512874001C3D25 /* FlyWithWing.swift */,
+				1C499CFC1B512976001C3D25 /* FlyNoWay.swift */,
+				1C64C6B81B5133BC005F29A6 /* FlyRocketPowered.swift */,
+			);
+			name = FlyBehavior;
+			sourceTree = "<group>";
+		};
+		1C499CFB1B512954001C3D25 /* QuackBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				1C499CF61B5126C9001C3D25 /* QuackBehavior.swift */,
+				1C499CFE1B512A04001C3D25 /* Quack.swift */,
+				1C499D001B512A50001C3D25 /* MuteQuack.swift */,
+				1C499D021B512A85001C3D25 /* Squeak.swift */,
+			);
+			name = QuackBehavior;
+			sourceTree = "<group>";
+		};
+		1C499D041B512B06001C3D25 /* Duck */ = {
+			isa = PBXGroup;
+			children = (
+				1C499CEE1B51237B001C3D25 /* Duck.swift */,
+				1C499D051B512D52001C3D25 /* MallardDuck.swift */,
+				1C499D071B5132B4001C3D25 /* ModelDuck.swift */,
+			);
+			name = Duck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +175,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C499CFD1B512976001C3D25 /* FlyNoWay.swift in Sources */,
+				1C499CFF1B512A04001C3D25 /* Quack.swift in Sources */,
+				1C499D011B512A50001C3D25 /* MuteQuack.swift in Sources */,
+				1C499CF91B512874001C3D25 /* FlyWithWing.swift in Sources */,
+				1C499D081B5132B4001C3D25 /* ModelDuck.swift in Sources */,
+				1C499CEF1B51237B001C3D25 /* Duck.swift in Sources */,
+				1C64C6B91B5133BC005F29A6 /* FlyRocketPowered.swift in Sources */,
+				1C499CF31B5125A9001C3D25 /* FlyBehavior.swift in Sources */,
+				1C499D061B512D52001C3D25 /* MallardDuck.swift in Sources */,
+				1C499D031B512A85001C3D25 /* Squeak.swift in Sources */,
 				1C499CE61B50EB50001C3D25 /* main.swift in Sources */,
+				1C499CF71B5126C9001C3D25 /* QuackBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +304,7 @@
 				1C499CEB1B50EB50001C3D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

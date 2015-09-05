@@ -8,5 +8,15 @@
 
 import Foundation
 
-println("Hello, World!")
+println("Hello, SimUDuck!")
 
+var mallard: Duck = MallardDuck()
+mallard.display()
+mallard.performQuack()
+mallard.performFly()
+
+var model: Duck = ModelDuck()
+model.display()
+model.performFly()
+model.setFlyBehavior(FlyRockedPowered())
+model.performFly()
